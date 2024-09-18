@@ -36,4 +36,4 @@ function mergeSortedArrays(array1, array2) {
 
 
 
-console.log(mergeSortedArrays([0,3,4,31], [4,6,30]));
+console.log(mergeSortedArrays([5,7,8], [4,6,10,11,12]));
