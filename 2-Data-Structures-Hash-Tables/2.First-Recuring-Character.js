@@ -9,7 +9,8 @@
 //It should return undefined
 
 
-//O(n^2)
+// O(n^2)
+// O(1) -> Space complexity
 function firstRecurringCharacter(input) {
     
     for (let i = 0; i < input.length; i++) {
@@ -25,6 +26,9 @@ function firstRecurringCharacter(input) {
     
 }
 
+
+// O(n)
+// O(n)  -> Space complexity
 function firstRecurringCharacter2(input) {
     let map = {};
     for (let i =0; i < input.length; i++) {
@@ -38,3 +42,4 @@ function firstRecurringCharacter2(input) {
 }
 
 console.log(firstRecurringCharacter([2,5,5,2,3,4,5]));
+console.log(firstRecurringCharacter2([2,5,5,2,3,4,5]));
