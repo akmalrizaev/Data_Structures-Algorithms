@@ -19,5 +19,11 @@ lookup O(log N)
 insert O(log N)
 delete O(log N)
 
+Unbalanced
+
+lookup O(n)
+insert O(n)
+delete O(n)
+
 */
 
